@@ -1,0 +1,39 @@
+# ---- secrets / certs ----
+certs/
+*.pem
+*.key
+*.crt
+*.p12
+*.der
+
+# ---- vector stores / indexes ----
+vectorstore/
+**/vectorstore/
+
+# ---- Python build + cache ----
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+build/
+dist/
+
+# ---- environments ----
+.venv/
+venv/
+.env
+.env.*
+*.env
+
+# ---- logs ----
+logs/
+*.log
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---- binaries ----
+mkcert.exe

@@ -2,8 +2,8 @@ from fastapi import APIRouter, HTTPException, Depends, Request
 
 router = APIRouter()
 
-@router.post("/upload_document")
-def process_upload():
+@router.post("/send")
+def process_chat():
     
     return {
         "payload": "Chuncking Successful!"
