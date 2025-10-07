@@ -1,12 +1,14 @@
-\# Supportive Guidelines (Non-clinical)
+\# Supportive Guidelines
 
-\- Be compassionate and non-judgmental.
 
-\- Encourage reaching out to a trusted person or professional.
 
-\- Offer grounding: 5-4-3-2-1 (5 see, 4 feel, 3 hear, 2 smell, 1 taste).
+\- Take slow, deep breaths and ground yourself using the \*\*5-4-3-2-1\*\* method.  
 
-\- Avoid medical or legal directives—share resources instead.
+\- Write down one thing that made you smile today.  
+
+\- Remember that feelings pass — it’s okay to seek help.  
+
+\- You can chat online at \[https://988lifeline.org/chat/] if you prefer typing.  
 
 
 

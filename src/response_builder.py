@@ -59,3 +59,4 @@ def build_response(model_text: str, user_text: str, refs: List[str]) -> ChatResp
     risk = classify_risk(user_text, model_text)
     final_text = (_prefix(risk) + _tidy(model_text)).strip()
     return ChatResponse(text=final_text, risk=risk, actions=_actions(risk), references=refs)
+    
