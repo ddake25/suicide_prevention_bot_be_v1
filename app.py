@@ -1,12 +1,8 @@
-import os
-from fastapi import FastAPI, Request
-from fastapi.middleware.cors import CORSMiddleware
-from src.test_route import router as api_test_route
+from fastapi import FastAPI
+from src.test_route import router as test_router
+from src.llm_route import router as llm_router   # <-- add this
 
+app = FastAPI(title="SP Chatbot API")
 
-app = FastAPI()
-
-
-# Reminders route
-app.include_router(api_test_route, prefix="/test")
-
+app.include_router(test_router)  # /firstapi
+app.include_router(llm_router)   # /ask
